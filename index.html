@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
 
+let symbol= prompt ("Enter rock, paper or scissors");
+symbol=symbol.toLowerCase();
+function rps () {
+if (symbol!=="rock"&&symbol!=="scissors"&&symbol!=="paper"){
+
+    alert("please enter the right prompt")
+}
+
+else if (symbol=="rock"){
+alert ("paper")
+alert("You Lose")
+
+
+}
+else if (symbol=="paper"){
+
+
+    alert("scissors")
+    alert("You Lose")
+}
+else if (symbol=="scissors"){
+
+    alert("rock")
+    alert("You Lose")
+}
+
+}
+rps();
+
+    </script>
+    
+</body>
+</html>
