@@ -1,44 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet"  href="./css/style.css">
+    <script  src="./script.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <script>
+  
+    <div class="Game">
+    <div class="computer">
+    <div class="Players">
+    <h3>YOU</h3>
+    <h3>COMPUTER</h3>
+</div>
+<div id="colorEnds">
+<div class="Player">
+    <p class="resultPlayer">GO!!</p>
+    <p class="pointsPlayer"></p> </div>
+<div class="computerResults">
+    <p class="result">GO!!</p>
+    <p class="points"></p>
+    </div> 
+    </div>
+</div>
 
-let symbol= prompt ("Enter rock, paper or scissors");
-symbol=symbol.toLowerCase();
-function rps () {
-if (symbol!=="rock"&&symbol!=="scissors"&&symbol!=="paper"){
-
-    alert("please enter the right prompt")
-}
-
-else if (symbol=="rock"){
-alert ("paper")
-alert("You Lose")
-
-
-}
-else if (symbol=="paper"){
-
-
-    alert("scissors")
-    alert("You Lose")
-}
-else if (symbol=="scissors"){
-
-    alert("rock")
-    alert("You Lose")
-}
-
-}
-rps();
-
-    </script>
     
-</body>
+</div>
+ 
+<div class="buttons">
+    <button id="Rock">Rock</button>
+    <button id="Paper">Paper</button>
+    <button id="Scissors">Scissors</button>
+
+</div>
+
+</body> 
 </html>

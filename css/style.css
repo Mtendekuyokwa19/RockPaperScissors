@@ -1,0 +1,87 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body {
+    background-color: #0B2447;
+    color: white;
+    margin:0rem;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.computer{
+ width: 42rem;
+ height: 48.5rem;
+ background-color: #19376D;
+
+
+}
+
+#colorEnds{
+
+display: flex;
+gap: 3rem;
+
+
+}
+.Players{
+ margin-left:2rem ;
+ display: flex;
+
+
+}
+
+.Game{
+    display: flex;
+
+}
+.buttons{
+    
+ display: flex;
+ flex-direction: column;
+ margin-top: -25rem;
+ padding: 34px;
+ width: 94px;
+ height:74px ;
+ font-size: 12px;
+ color: white;
+ background-color: #090a0a;
+ gap: 12px;
+
+
+
+}
+.computerResults{
+
+margin-left:45rem ;
+font-size: 48px;
+}
+.Player{
+    font-size: 48px;  
+  margin-left: 3rem;
+
+}
+.Players{
+margin-left: 5rem;
+gap:50rem;
+
+}
+#Rock,#Paper,#Scissors{
+ background-color:#576cbc;
+ border:#576cbc;
+ width: 94px;
+ font-size: 20px;
+font-weight: bold;
+color: white;
+border-radius: 14px;
+transition: background-color 0.5s ease-out 10ms;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 6px;
+padding-right:6px;
+
+}
+#Rock:hover,#Paper:hover,#Scissors:hover{
+background-color:blue;
+    
+}
